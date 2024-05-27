@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Calculator</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div id = "container">
+            <input id = "txt" readonly>
+
+            <div class = "row">
+                <button class = "btn1" onclick = "Display('%')">Mod</button>
+                <button class = "btn1" onclick = "Display('*')">X</button>
+                <button class = "btn1" onclick = "Display('/')">/</button>
+                <button class = "btn3" onclick = "Delete()">DE</button>
+            </div>
+
+            <div class = "row">
+                <button class = "btn2" onclick = "Display('7')">7</button>
+                <button class = "btn2" onclick = "Display('8')">8</button>
+                <button class = "btn2" onclick = "Display('9')">9</button>
+                <button class = "btn3" onclick = "Display('-')">-</button>
+            </div>
+
+            <div class = "row">
+                <button class = "btn2" onclick = "Display('4')">4</button>
+                <button class = "btn2" onclick = "Display('5')">5</button>
+                <button class = "btn2" onclick = "Display('6')">6</button>
+                <button class = "btn3" onclick = "Display('+')">+</button>
+            </div>
+
+            <div class = "row">
+                <button class = "btn2" onclick = "Display('1')">1</button>
+                <button class = "btn2" onclick = "Display('2')">2</button>
+                <button class = "btn2" onclick = "Display('3')">3</button>
+                <button class = "btn3" onclick = "Clear()">AC</button>
+            </div>
+    
+            <div class = "row">
+                <button class = "btn2" onclick = "Display('00')">00</button>
+                <button class = "btn2" onclick = "Display('0')">0</button>
+                <button class = "btn2" onclick = "Display('.')">.</button>
+                <button class = "btn3" onclick = "Calculator()">=</button>
+            </div>
+        </div>
+
+        <script src = "index.js"></script>
+    </body>
+</html>

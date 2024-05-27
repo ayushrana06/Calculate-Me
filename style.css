@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: rgba(219,227,235,255);
+}
+
+#container {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 250px;
+    overflow: hidden;
+}
+
+#txt {
+    width: 100%;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: left;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.row {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(30, 1fr);
+    background-color: rgba(245,244,244,255);
+}
+
+.btn1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgba(213,212,211,255);
+    color: white;
+}
+
+.btn1:hover{
+    background-color: hsl(30, 2%, 65%);
+}
+
+.btn1:active{
+    background-color: hsl(30, 2%, 75%);
+}
+
+.btn2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgba(80,81,81,255);
+    color: white;
+}
+
+.btn2:hover{
+    background-color: hsl(180, 1%, 65%);
+}
+
+.btn2:active{
+    background-color: hsl(180, 1%, 75%);
+}
+
+.btn3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgba(254,149,1,255);
+    color: white;
+}
+
+.btn3:hover{
+    background-color: hsl(35, 99%, 65%);
+}
+
+.btn3:active{
+    background-color: hsl(35, 99%, 75%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.operator-btn{
+    background-color: hsl(35, 100%, 55%);
+}
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+.operator-btn:active{
+    background-color: hsl(35, 100%, 75%);
+}
+
